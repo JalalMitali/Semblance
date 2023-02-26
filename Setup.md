@@ -12,8 +12,7 @@
 
 Create a server.js file: This file will contain your backend code.
 
-\```
-
+```
 const express = require('express');
 
 const app = express();
@@ -32,7 +31,7 @@ console.log(`Server listening on port ${port}`);
 
 });
 
-\```
+```
 
 This creates a simple server that listens for requests on port 3000 and responds with "Hello World!".
 
