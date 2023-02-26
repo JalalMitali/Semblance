@@ -38,7 +38,7 @@ This creates a simple server that listens for requests on port 3000 and responds
 \4. Set up Firebase: If you're using Firebase, you'll need to create a Firebase project and download a service account key. You can then initialize the Firebase Admin SDK in your server.js file:
 
 
-\```
+```
 
 const admin = require('firebase-admin');
 
@@ -52,11 +52,11 @@ credential: admin.credential.cert(serviceAccount)
 
 // Use Firebase services here
 
-\```
+```
 
-\5. Set up OpenAI: If you're using OpenAI, you'll need to create an account and generate an API key. You can then initialize the OpenAI SDK in your server.js file:
+5. Set up OpenAI: If you're using OpenAI, you'll need to create an account and generate an API key. You can then initialize the OpenAI SDK in your server.js file:
 
-\```
+```
 
 const openai = require('openai');
 
@@ -66,11 +66,11 @@ openai.apiKey = openaiApiKey;
 
 // Use OpenAI services here
 
-\```
+```
 
-\6. Set up environment variables: You can store sensitive information like API keys in a .env file and load them into process.env using dotenv. Here's an example .env file:
+6. Set up environment variables: You can store sensitive information like API keys in a .env file and load them into process.env using dotenv. Here's an example .env file:
 
-\```
+```
 
 PORT=3000
 
@@ -82,11 +82,13 @@ FIREBASE\_CLIENT\_EMAIL=your-client-email
 
 OPENAI\_API\_KEY=your-api-key
 
-\```
+```
+
 
 Then load these variables in your server.js file:
 
-\```
+
+```
 
 require('dotenv').config();
 
@@ -100,7 +102,7 @@ const firebaseClientEmail = process.env.FIREBASE\_CLIENT\_EMAIL;
 
 const openaiApiKey = process.env.OPENAI\_API\_KEY;
 
-\```
+```
 
 
-\7. Run your server: You can start your server by running `node server`.js. This will start the server and listen for incoming requests.
+7. Run your server: You can start your server by running `node server`.js. This will start the server and listen for incoming requests.
