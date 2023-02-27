@@ -19,12 +19,12 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -204,7 +204,7 @@ Project Link: [https://github.com/SingularityAi8/Semblance](https://github.com/S
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/SingularityAi8/Semblance.svg?style=for-the-badge
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/SingularityAi8/Semblance.svg?style=for-the-badge
 [contributors-url]: https://github.com/SingularityAi8/Semblance/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/SingularityAi8/Semblance.svg?style=for-the-badge
 [forks-url]: https://github.com/SingularityAi8/Semblance/network/members
@@ -216,4 +216,4 @@ Project Link: [https://github.com/SingularityAi8/Semblance](https://github.com/S
 [license-url]: https://github.com/SingularityAi8/Semblance/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jason-quist-4a0651261
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.png -->
